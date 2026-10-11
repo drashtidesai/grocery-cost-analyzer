@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.runtime/
+*.log
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+.DS_Store
+Thumbs.db

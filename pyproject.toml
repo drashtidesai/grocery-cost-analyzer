@@ -1,0 +1,18 @@
+[project]
+name = "dubai-grocery-comparison"
+version = "0.1.0"
+description = "Compare guest grocery prices for Dubai delivery areas"
+requires-python = ">=3.12"
+dependencies = [
+  "streamlit>=1.50,<2",
+  "pandas>=2.2,<3",
+  "playwright>=1.55,<2",
+  "rapidfuzz>=3.14,<4",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.4,<10"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
